@@ -1,0 +1,95 @@
+.cover {
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    background: url('../res/pink.jpg') center no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+    opacity: 0.5;
+}
+.pic{
+	border-radius: 50%;
+	width:180px;
+	height: 180px;
+	position: relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	top:-100px;
+	box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+   
+}
+
+.social {
+    color: tomato;
+    position: relative;
+    top: -50px;
+    text-align: center;
+}
+.social div {
+    padding: 3px;
+}
+.social div:hover {
+    color: rgba(255, 99, 71, 0.5);
+    cursor: pointer;
+}
+.name{
+	color: #2E2E2E;
+	text-align: center;
+	position: relative;
+    top: -30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.name:hover{
+	color: black;
+	text-decoration: underline;
+}
+.status{
+	color: #2E2E2E;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	position: relative;
+    top: -40px;
+}
+.sty{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.title{
+	color: tomato;
+}
+.centred{
+	text-align: center;
+}
+.hh:hover .rot  {	
+    color: tomato  ;
+    transform: rotate(360deg);
+    transition:  0.3s;  
+}
+.hh:hover  p  {
+	
+   color: tomato !important;
+   transition: 0.3s;
+    
+}
+
+.interests p{
+	
+	position: relative;
+	color: white;
+  
+}
+
+.projects img{
+	height:150px;
+	width: 200px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+
+}
+.projects img:hover{
+	box-shadow: none;
+	transition: box-shadow .3s;
+}
